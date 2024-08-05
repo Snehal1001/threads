@@ -45,3 +45,4 @@ So far use -->
 4. React
 5. shadcn/ui
 6. Zod
+7. uploadthing
