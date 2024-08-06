@@ -46,3 +46,4 @@ So far use -->
 5. shadcn/ui
 6. Zod
 7. uploadthing
+8. Mongoose (MongoDB)
