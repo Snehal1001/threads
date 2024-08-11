@@ -40,7 +40,6 @@ export async function updateUser({
 export async function fetchUser(userId: string) {
   try {
     connectToDB();
-    debugger;
     return await User
     .findOne({ id: userId })
     // .populate({

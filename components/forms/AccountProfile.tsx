@@ -9,6 +9,7 @@ import {
   FormField,
   FormItem,
   FormLabel,
+  FormMessage,
 } from "@/components/ui/form";
 import { z } from "zod";
 import { Input } from "@/components/ui/input";
@@ -37,6 +38,7 @@ export default function AccountProfile({ user, btnTitle }: Props) {
   const { startUpload } = useUploadThing("media");
   const router = useRouter();
   const pathname = usePathname();
+
   const form = useForm({
     resolver: zodResolver(UserValidation),
     defaultValues: {
@@ -92,10 +94,10 @@ export default function AccountProfile({ user, btnTitle }: Props) {
       path: pathname,
     });
 
-    if (pathname === '/profile/edit') {
+    if (pathname === "/profile/edit") {
       router.back();
     } else {
-      router.push('/');
+      router.push("/");
     }
   };
 
@@ -139,6 +141,7 @@ export default function AccountProfile({ user, btnTitle }: Props) {
                   onChange={(e) => handleImage(e, field.onChange)}
                 />
               </FormControl>
+              <FormMessage />
             </FormItem>
           )}
         />
@@ -158,6 +161,7 @@ export default function AccountProfile({ user, btnTitle }: Props) {
                   {...field}
                 />
               </FormControl>
+              <FormMessage />
             </FormItem>
           )}
         />
@@ -177,6 +181,7 @@ export default function AccountProfile({ user, btnTitle }: Props) {
                   {...field}
                 />
               </FormControl>
+              <FormMessage />
             </FormItem>
           )}
         />
@@ -196,6 +201,7 @@ export default function AccountProfile({ user, btnTitle }: Props) {
                   {...field}
                 />
               </FormControl>
+              <FormMessage />
             </FormItem>
           )}
         />
