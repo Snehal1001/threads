@@ -51,18 +51,3 @@ So far use -->
 
 
 .env.local -->
-
-<!-- NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_bW9yYWwtcmhpbm8tNjcuY2xlcmsuYWNjb3VudHMuZGV2JA
-CLERK_SECRET_KEY=sk_test_07LGBjhD2LTpTemr482MI1Zen0u3QVT4br3Tr5OKZU
-
-# mongodb+srv://snehal8prajapati:<password>@cluster0.k5tw7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
-
-MONGODB_URL=mongodb+srv://snehal8prajapati:ThreadDataBase@cluster0.k5tw7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-
-UPLOADTHING_SECRET=sk_live_b234e231b654740044f6ef5f9d4aae1bd3c5800ae19c4412510a62cbd2c98946
-UPLOADTHING_APP_ID=oht8qsq24z -->
